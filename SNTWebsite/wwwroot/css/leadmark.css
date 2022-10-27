@@ -11902,7 +11902,7 @@ textarea.form-control {
 @media (max-width: 950px) and (min-width: 450px) {
     .box2 {
         text-align: center;
-        height: 180px;
+        height: 220px;
     }
 }
 
@@ -11947,7 +11947,8 @@ textarea.form-control {
     }
 
     .box2 {
-        width: 98%;
+        width: 285px;
+        height: 220px;
     }
 
     .header2 .p {
