@@ -18,7 +18,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
+    <script type="text/javascript" src="../vendors/jquery/jquery-3.4.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" type="text/css" />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+
 
 </head>
 
@@ -28,7 +33,7 @@
     <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="../imgs/logo-snt.png" alt=""><a style="color: #ff6e42; font-size: 24px; font-weight: 600;">SNT Yazılım</a>
+                <img src="../imgs/logo-snt.png" alt=""><span style="color: #ff6e42; font-size: 24px; font-weight: 600;">SNT Yazılım</span>
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,7 +61,7 @@
         </div>
     </nav>
     <!-- End Of Second Navigation -->
-    
+
     @RenderBody()
 
 
@@ -76,7 +81,7 @@
                     </p>
 
                     <h6 class="mb-0">Email</h6>
-                    <p class="mb-0">info@sntyazilim.com.tr</p>
+                    <p class="mb-4">info@sntyazilim.com.tr</p>
                     <p></p>
                     <div>
                         <a href="https://tr.linkedin.com/company/snt-yazılım-teknoloji-arge-danışmanlık-dış-ticaret-ltd-şti"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
@@ -89,24 +94,8 @@
                 <div class="col-md-7">
                     <form>
                         <h4 class="mb-4">Bize Ulaşın</h4>
-                        <div class="form-row">
-                            <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Name">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
+                        <p style="width: 100%; height: 100%;margin:40px;"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11921.460694945537!2d26.5751997319125!3d41.669456217826436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zxZ7DvGtyw7xwYcWfYSBNYWguIFrDvGJleWRlIEhhbsSxbSBDYWQuIFRyYWt5YSDDnG5pdmVyc2l0ZXNpIFRla25vbG9qaSBHZWxpxZ90aXJtZSBCw7ZsZ2VzaSBObzogMy8yIE1lcmtleiAvIEVExLBSTkU!5e0!3m2!1str!2str!4v1666878739385!5m2!1str!2str" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
 
-                            </div>
-                            <div class="form-group col-12 mb-0">
-                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
-                            </div>
-                        </div>
                     </form>
                 </div>
             </div>
@@ -121,7 +110,9 @@
             </footer>
             <!-- End of Page Footer -->
         </div>
+
     </section>
+
 
     <!-- Back To Top -->
     <a href="#" id="back-to-top" class="btn2 btn2-lg btn2-primary btn2-lg-square back-to-top">
@@ -143,8 +134,8 @@
 
     <!-- LeadMark js -->
     <script src="../js/leadmark.js"></script>
-   
-   
+
+
 
     <script>
         // Get the button
@@ -167,7 +158,5 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-   
-
 </body>
 </html>

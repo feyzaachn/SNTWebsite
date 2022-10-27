@@ -11445,12 +11445,13 @@ textarea.form-control {
 }
 
 .header {
-  position: relative;
-  height: 100vh;
-  min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
-  background-size: cover;
-  overflow: hidden;
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+   /* background: url(../imgs/header.jpg) no-repeat center center fixed;*/
+    background: url(../imgs/background1.png) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .header .overlay {
@@ -11648,10 +11649,11 @@ textarea.form-control {
 }
 
 .section.has-img-bg {
-  position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
-  background-size: cover;
-  color: #fff;
+    position: relative;
+    /*background: url(../imgs/section.jpg) no-repeat center top fixed;*/
+    background: url(../imgs/background1.png) no-repeat center top fixed;
+    background-size: cover;
+    color: #fff;
 }
 
 .section.has-img-bg * {
